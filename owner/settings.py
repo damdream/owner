@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'owners',
 ]
 
 MIDDLEWARE = [
@@ -151,4 +152,4 @@ CORS_ALLOW_HEADERS = (
     'x-csrftoken',
     'x-requested-with',
 )
-		#만약 허용해야할 키가 있다면 추가로 이곳에 지정하
+		#만약 허용해야할 키가 있다면 추가로 이곳에 지정하기
